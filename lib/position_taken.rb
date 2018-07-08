@@ -1,10 +1,10 @@
 # code your #position_taken? method here!
 def position_taken? (board, index)
   #some code
-  if (board[index].include? "X") || (board[index].include? "O")
-    true
+  if board[index].nil?
+    false
     #false
-  #elsif (board[index].include? "X") || (board[index].include? "O")
+  elsif (board[index].include? "X") || (board[index].include? "O")
     # || board[index].include? "O"
     true
   else
