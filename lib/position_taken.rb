@@ -4,7 +4,7 @@ def position_taken? (board, index)
   if board[index].nil?
     false
     #false
-  elsif (board[index].upcase.include? "X") || (board[index].include? "O")
+  elsif (board[index].upcase.include? "X") || (board[index].upcase.include? "O")
     # || board[index].include? "O"
     true
   else
